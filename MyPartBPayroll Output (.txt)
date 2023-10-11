@@ -1,0 +1,138 @@
+ 
+  ----jGRASP exec: java MyPartBPayroll
+ 
+ Enter the name, IDs, hours worked and pay rate of employees,
+ and their wages will be calculated and outputed.
+ 
+ Input for Employee #1: 
+ Name: Isaac Gibson
+ ID: 7001
+ Hours Worked: 35
+ Pay rate: 10
+ 
+ Isaac Gibson's wage is $350.00 
+ 
+ Input for Employee #2: 
+ Name: Bob Smith
+ ID: 7002
+ Hours Worked: 30
+ Pay rate: 10
+ 
+ Bob Smith's wage is $300.00 
+ 
+ Input for Employee #3: 
+ Name: Paris Noire
+ ID: 7003
+ Hours Worked: 25
+ Pay rate: 10
+ 
+ Paris Noire's wage is $250.00 
+ 
+ Input for Employee #4: 
+ Name: Lisa Wright
+ ID: 7004
+ Hours Worked: 25
+ Pay rate: 10
+ 
+ Lisa Wright's wage is $250.00 
+ 
+ Input for Employee #5: 
+ Name: Lily Welch
+ ID: 7005
+ Hours Worked: 30
+ Pay rate: 15
+ 
+ Lily Welch's wage is $450.00 
+ 
+ Input for Employee #6: 
+ Name: Ross Miller
+ ID: 7006
+ Hours Worked: 25
+ Pay rate: 15
+ 
+ Ross Miller's wage is $375.00 
+ 
+ Input for Employee #7: 
+ Name: Stewart Carr
+ ID: 7007
+ Hours Worked: 20
+ Pay rate: 15
+ 
+ Stewart Carr's wage is $300.00 
+ 
+ Input for Employee #8: 
+ Name: Emma Stone 
+ ID: 7008
+ Hours Worked: 15
+ Pay rate: 5
+ 
+ Emma Stone 's wage is $75.00 
+ 
+ Input for Employee #9: 
+ Name: Sophie Lu
+ ID: 7009
+ Hours Worked: 13
+ Pay rate: 5
+ 
+ Sophie Lu's wage is $65.00 
+ 
+ Input for Employee #10: 
+ Name: Joan Kim
+ ID: 18
+ Hours Worked: 5
+ Pay rate: 5
+ 
+ Joan Kim's wage is $25.00 
+ 
+     Name         | ID      | Hours      | Payrate   | Wages      
+ --------------------------------------------------------------
+   Isaac Gibson   |     7001|       35 hrs| $   10.00| $ 350.00
+   Bob Smith      |     7002|       30 hrs| $   10.00| $ 300.00
+   Paris Noire    |     7003|       25 hrs| $   10.00| $ 250.00
+   Lisa Wright    |     7004|       25 hrs| $   10.00| $ 250.00
+   Lily Welch     |     7005|       30 hrs| $   15.00| $ 450.00
+   Ross Miller    |     7006|       25 hrs| $   15.00| $ 375.00
+   Stewart Carr   |     7007|       20 hrs| $   15.00| $ 300.00
+   Emma Stone     |     7008|       15 hrs| $    5.00| $  75.00
+   Sophie Lu      |     7009|       13 hrs| $    5.00| $  65.00
+   Joan Kim       |       18|        5 hrs| $    5.00| $  25.00
+ 
+ 
+ This is the employee with the highest wage:
+ - Name: Lily Welch, ID: 7005, Wage: $450.00
+ - This employee worked for 30 hrs, with a pay rate of $15.00
+ 
+ This is the employee with the lowest wage:
+ - Name: Joan Kim, ID: 18, Wage: $25.00
+ - This employee worked for 30 hrs, with a pay rate of $15.00.
+ 
+ These are the names and wages of the employees
+ that have wages more than or equal to average : 
+ 
+ 
+     Name        | ID      | Hours     | Payrate    | Wages      
+ --------------------------------------------------------------
+   Isaac Gibson  |     7001|       35 hrs| $   10.00| $ 350.00
+   Bob Smith     |     7002|       30 hrs| $   10.00| $ 300.00
+   Paris Noire   |     7003|       25 hrs| $   10.00| $ 250.00
+   Lisa Wright   |     7004|       25 hrs| $   10.00| $ 250.00
+   Lily Welch    |     7005|       30 hrs| $   15.00| $ 450.00
+   Ross Miller   |     7006|       25 hrs| $   15.00| $ 375.00
+   Stewart Carr  |     7007|       20 hrs| $   15.00| $ 300.00
+ 
+ Enter employee's name: 
+ Bob Smith
+ 
+ Name: Bob Smith,  ID: 7002
+ - Wage: $300.00
+ - This employee worked for 30 hrs, with a pay rate of $10.00.
+ 
+ Enter the employees ID: 
+ 7006
+ 
+ Name: Ross Miller,  ID: 7006
+ - Wage: $375.00
+ - This employee worked for 25 hrs, with a pay rate of $15.00.
+ 
+  ----jGRASP: operation complete.
+ 
